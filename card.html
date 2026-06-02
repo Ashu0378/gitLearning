@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #container{
+            display:flex;
+            flex-direction: column;
+            margin-left: 350px;
+            height: 500px;
+            width: 400px;
+            background-color: white;
+        }
+        #bl{
+            background-color: rgb(24, 69, 217);
+            margin-top: 5px;
+            margin-left: 60px;
+            height: 150px;
+            width: 280px;
+            border-top-left-radius: 15%;
+            border-top-right-radius: 15%;
+        }
+        .circle{
+            margin-top: 60px;
+            margin-left:65px;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            border: solid rgb(3, 3, 248);
+            background-color: white;
+        }
+        #name{
+            margin-top: 70px;
+            margin-left: 150px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: x-large;
+            /* font-weight: bold; */
+        }
+        #pos{
+            margin-top: 5px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: medium;
+            margin-left: 140px;
+
+        }
+        #logo{
+            margin-top: 20px;
+            margin-left: 60px;
+            height: 50px;
+            width: 2000px;
+            display: flex;
+            flex-direction: row;
+        }
+        .a{
+            height: 50px;
+            width: 50px;
+            margin-left: 20px;
+            border-radius: 50%;
+            /* border: 2px solid; */
+            overflow: hidden;
+        }
+        .a img{
+            /* margin-left: 5px; */
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        #subs{
+            display: flex;
+            height: 60px;
+            width: 400px;
+            margin-left: 70px;
+            margin-top: 30px;
+            /* border: 2px solid; */
+        }
+        .mess{
+            background-color: blue;
+            height: 25px;
+            width: 80px;
+            border-radius: 50px;
+            margin-left: 30px;
+            /* margin-top: 10px; */
+            padding-top: 10px;
+            padding-left: 20px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="bl">
+            <div class="circle"></div>
+        </div>
+        <div id="name">CodingLab</div>
+        <div id="pos">YouTuber & Blogger</div>
+        <div id="logo">
+            <div class="a"><img src="fb-logo.png"></div>
+            <div class="a"><img src="twitter-logo.png"></div>
+            <div class="a"><img src="insta-logo.png"></div>
+            <div class="a"><img src="yt-logo.png"></div>
+        </div>
+        <div id="subs">
+            <div class="mess">Subscribe</div>
+            <div class="mess">Message</div>
+        </div>
+    </div>
+</body>
+</html>
